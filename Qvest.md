@@ -24,3 +24,11 @@ git branch branch name - создание новой ветки
 git merge branch_name - слияние веток
 ## Conflicts
 Конфликты возникают когда затронуто общее пространство
+## git branch -M "name"
+название основной ветки
+## удаленная связь
+git remote add origin https://github.com/kolian97/qvest.git
+## из локального в удаленный репрезиторий
+git push -u origin main
+## из удаленного в локальный
+git pull
